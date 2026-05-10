@@ -15,7 +15,7 @@ add_filter( 'acf/settings/save_json', function () {
 
 // Pagefind UI の読み込み
 add_action( 'wp_footer', function () {
-    if ( is_post_type_archive( 'law_firm' ) || is_page_template( 'ken-crime-template.php' ) ) :
+    if ( is_post_type_archive( 'law_firm' ) || is_page_template( 'page-ken-crime.php' ) ) :
     ?>
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
     <script src="/pagefind/pagefind-ui.js"></script>
