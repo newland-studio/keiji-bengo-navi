@@ -1,0 +1,29 @@
+[
+  {
+    "firm_name": "東京刑事法律事務所",
+    "lawyer_name": "山田 太郎",
+    "prefecture": "tokyo",
+    "phone": "03-1234-5678",
+    "address": "東京都千代田区丸の内1-1-1",
+    "website": "https://example-tokyo.com",
+    "crime_types_raw": ["刑事", "痴漢", "薬物"]
+  },
+  {
+    "firm_name": "大阪弁護士事務所",
+    "lawyer_name": "鈴木 花子",
+    "prefecture": "osaka",
+    "phone": "06-2345-6789",
+    "address": "大阪府大阪市中央区本町1-1-1",
+    "website": "https://example-osaka.com",
+    "crime_types_raw": ["刑事", "詐欺", "傷害"]
+  },
+  {
+    "firm_name": "横浜法律事務所",
+    "lawyer_name": "田中 次郎",
+    "prefecture": "kanagawa",
+    "phone": "045-3456-7890",
+    "address": "神奈川県横浜市西区みなとみらい1-1-1",
+    "website": "https://example-kanagawa.com",
+    "crime_types_raw": ["刑事", "薬物", "少年事件"]
+  }
+]
