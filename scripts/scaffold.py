@@ -56,6 +56,7 @@ def scaffold_pages() -> None:
                     f"当番弁護士連絡先とあわせてご案内します。"
                 ),
                 "h1_heading": title,
+                "_wp_page_template": "page-ken-crime.php",
             }
 
             for key, value in meta.items():

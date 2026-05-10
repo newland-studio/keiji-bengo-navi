@@ -84,3 +84,38 @@ def test_scaffold_sets_seo_meta_fields(tmp_path):
     assert "seo_meta_title" in meta_keys
     assert "seo_meta_desc" in meta_keys
     assert "h1_heading" in meta_keys
+
+
+def test_scaffold_sets_page_template(tmp_path):
+    prefectures = [
+        {"name": "東京都", "slug": "tokyo",
+         "courthouse": "東京拘置所", "bar_contact": "03-3580-0082", "court_name": "東京地裁"},
+    ]
+    crime_types = [
+        {"name": "痴漢・盗撮", "slug": "chikan"},
+    ]
+
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "prefectures.json").write_text(json.dumps(prefectures))
+    (tmp_path / "data" / "crime_types.json").write_text(json.dumps(crime_types))
+
+    calls = []
+
+    def record_run(args, **kwargs):
+        calls.append(list(args))
+        m = MagicMock()
+        m.stdout = "1\n"
+        return m
+
+    with patch("subprocess.run", side_effect=record_run):
+        with patch("scripts.scaffold.PREFECTURES_PATH",
+                   str(tmp_path / "data" / "prefectures.json")):
+            with patch("scripts.scaffold.CRIME_TYPES_PATH",
+                       str(tmp_path / "data" / "crime_types.json")):
+                from scripts import scaffold
+                scaffold.scaffold_pages()
+
+    meta_keys = [c[5] for c in calls if c[1:3] == ["post", "meta"]]
+    assert "_wp_page_template" in meta_keys
+    template_values = [c[6] for c in calls if c[1:3] == ["post", "meta"] and c[5] == "_wp_page_template"]
+    assert template_values == ["page-ken-crime.php"]
