@@ -1,0 +1,62 @@
+[
+  {
+    "name": "痴漢・盗撮",
+    "slug": "chikan",
+    "description": "電車内・公共の場での痴漢行為・盗撮事件",
+    "urgency_note": "示談交渉は逮捕後72時間以内が最重要"
+  },
+  {
+    "name": "薬物事件",
+    "slug": "yakubutsu",
+    "description": "覚醒剤・大麻・麻薬の所持・使用・譲渡",
+    "urgency_note": "尿検査・家宅捜索への対応が急務"
+  },
+  {
+    "name": "詐欺・横領",
+    "slug": "sagi",
+    "description": "特殊詐欺・振り込め詐欺・業務上横領等",
+    "urgency_note": "共犯関係の遮断が早期に必要"
+  },
+  {
+    "name": "傷害・暴行",
+    "slug": "shogai",
+    "description": "傷害・暴行・傷害致死・傷害致傷",
+    "urgency_note": "被害者との示談が重要"
+  },
+  {
+    "name": "万引き・窃盗",
+    "slug": "sesshu",
+    "description": "万引き・窃盗・空き巣・車上荒らし等",
+    "urgency_note": "初犯は不起訴が狙える"
+  },
+  {
+    "name": "性犯罪",
+    "slug": "seihanzai",
+    "description": "強制わいせつ・不同意わいせつ・強制性交等",
+    "urgency_note": "被害者との接触は絶対禁止"
+  },
+  {
+    "name": "DV・ストーカー",
+    "slug": "dv",
+    "description": "配偶者暴力・ストーカー規制法違反",
+    "urgency_note": "接近禁止命令への対応が急務"
+  },
+  {
+    "name": "少年事件",
+    "slug": "shonen",
+    "description": "20歳未満の少年による刑事事件・家裁送致",
+    "urgency_note": "観護措置・試験観察への対応"
+  },
+  {
+    "name": "危険運転・ひき逃げ",
+    "slug": "kotsu",
+    "description": "危険運転致死傷・ひき逃げ・飲酒運転等",
+    "urgency_note": "事故直後の対応が裁判結果を左右する"
+  },
+  {
+    "name": "その他刑事事件",
+    "slug": "sonota",
+    "description": "脅迫・名誉毀損・業務妨害・不正アクセス等",
+    "urgency_note": "事件の種類により対応が異なる"
+  }
+]

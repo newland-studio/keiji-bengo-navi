@@ -1,0 +1,331 @@
+[
+  {
+    "name": "北海道",
+    "slug": "hokkaido",
+    "courthouse": "札幌拘置所（札幌市白石区菊水7条5丁目7-1）",
+    "bar_contact": "札幌弁護士会当番弁護士: 011-281-2428",
+    "court_name": "札幌地方裁判所"
+  },
+  {
+    "name": "青森県",
+    "slug": "aomori",
+    "courthouse": "青森拘置支所（青森市本町1-23-24）",
+    "bar_contact": "青森県弁護士会: 017-777-7285",
+    "court_name": "青森地方裁判所"
+  },
+  {
+    "name": "岩手県",
+    "slug": "iwate",
+    "courthouse": "盛岡拘置支所（盛岡市内丸11-1）",
+    "bar_contact": "岩手弁護士会: 019-651-5095",
+    "court_name": "盛岡地方裁判所"
+  },
+  {
+    "name": "宮城県",
+    "slug": "miyagi",
+    "courthouse": "仙台拘置支所（仙台市宮城野区五輪1-3-1）",
+    "bar_contact": "宮城県弁護士会当番弁護士: 022-223-2383",
+    "court_name": "仙台地方裁判所"
+  },
+  {
+    "name": "秋田県",
+    "slug": "akita",
+    "courthouse": "秋田拘置支所（秋田市山王4-1-8）",
+    "bar_contact": "秋田弁護士会: 018-862-3770",
+    "court_name": "秋田地方裁判所"
+  },
+  {
+    "name": "山形県",
+    "slug": "yamagata",
+    "courthouse": "山形刑務所（山形市緑町1-1-75）",
+    "bar_contact": "山形県弁護士会: 023-622-2234",
+    "court_name": "山形地方裁判所"
+  },
+  {
+    "name": "福島県",
+    "slug": "fukushima",
+    "courthouse": "福島刑務所（福島市八木田字東山9）",
+    "bar_contact": "福島県弁護士会: 024-536-2238",
+    "court_name": "福島地方裁判所"
+  },
+  {
+    "name": "茨城県",
+    "slug": "ibaraki",
+    "courthouse": "水戸拘置支所（水戸市大町2-1-24）",
+    "bar_contact": "茨城県弁護士会: 029-221-3501",
+    "court_name": "水戸地方裁判所"
+  },
+  {
+    "name": "栃木県",
+    "slug": "tochigi",
+    "courthouse": "栃木刑務所（栃木市境町8-1）",
+    "bar_contact": "栃木県弁護士会: 028-689-9000",
+    "court_name": "宇都宮地方裁判所"
+  },
+  {
+    "name": "群馬県",
+    "slug": "gunma",
+    "courthouse": "前橋刑務所（前橋市古市町1-15-1）",
+    "bar_contact": "群馬弁護士会: 027-233-9200",
+    "court_name": "前橋地方裁判所"
+  },
+  {
+    "name": "埼玉県",
+    "slug": "saitama",
+    "courthouse": "さいたま拘置支所（さいたま市浦和区高砂2-18-19）",
+    "bar_contact": "埼玉弁護士会当番弁護士: 048-863-5255",
+    "court_name": "さいたま地方裁判所"
+  },
+  {
+    "name": "千葉県",
+    "slug": "chiba",
+    "courthouse": "千葉拘置所（千葉市若葉区貝塚町192）",
+    "bar_contact": "千葉県弁護士会当番弁護士: 043-227-8431",
+    "court_name": "千葉地方裁判所"
+  },
+  {
+    "name": "東京都",
+    "slug": "tokyo",
+    "courthouse": "東京拘置所（葛飾区小菅1-35-1）",
+    "bar_contact": "東京当番弁護士センター: 03-3580-0082（平日・休日 10:00〜17:00）",
+    "court_name": "東京地方裁判所"
+  },
+  {
+    "name": "神奈川県",
+    "slug": "kanagawa",
+    "courthouse": "横浜拘置支所（横浜市保土ケ谷区岩井町55）",
+    "bar_contact": "神奈川県弁護士会: 045-211-7700",
+    "court_name": "横浜地方裁判所"
+  },
+  {
+    "name": "新潟県",
+    "slug": "niigata",
+    "courthouse": "新潟拘置支所（新潟市中央区西大畑町5191）",
+    "bar_contact": "新潟県弁護士会: 025-222-5533",
+    "court_name": "新潟地方裁判所"
+  },
+  {
+    "name": "富山県",
+    "slug": "toyama",
+    "courthouse": "富山刑務所（富山市西番160）",
+    "bar_contact": "富山県弁護士会: 076-421-4811",
+    "court_name": "富山地方裁判所"
+  },
+  {
+    "name": "石川県",
+    "slug": "ishikawa",
+    "courthouse": "金沢拘置所（金沢市東力3-91）",
+    "bar_contact": "金沢弁護士会: 076-221-0242",
+    "court_name": "金沢地方裁判所"
+  },
+  {
+    "name": "福井県",
+    "slug": "fukui",
+    "courthouse": "福井刑務所（福井市大町1-102）",
+    "bar_contact": "福井弁護士会: 0776-23-5255",
+    "court_name": "福井地方裁判所"
+  },
+  {
+    "name": "山梨県",
+    "slug": "yamanashi",
+    "courthouse": "甲府拘置支所（甲府市丸の内1-1-18）",
+    "bar_contact": "山梨県弁護士会: 055-235-2801",
+    "court_name": "甲府地方裁判所"
+  },
+  {
+    "name": "長野県",
+    "slug": "nagano",
+    "courthouse": "長野拘置所（長野市大字長野字鶴賀175）",
+    "bar_contact": "長野県弁護士会: 026-232-2104",
+    "court_name": "長野地方裁判所"
+  },
+  {
+    "name": "岐阜県",
+    "slug": "gifu",
+    "courthouse": "岐阜刑務所（岐阜市鏡島中3-6-1）",
+    "bar_contact": "岐阜県弁護士会: 058-265-0020",
+    "court_name": "岐阜地方裁判所"
+  },
+  {
+    "name": "静岡県",
+    "slug": "shizuoka",
+    "courthouse": "静岡拘置支所（静岡市葵区追手町10-80）",
+    "bar_contact": "静岡県弁護士会: 054-252-0008",
+    "court_name": "静岡地方裁判所"
+  },
+  {
+    "name": "愛知県",
+    "slug": "aichi",
+    "courthouse": "名古屋拘置所（名古屋市中川区明正通4-1-1）",
+    "bar_contact": "愛知県弁護士会: 052-203-5595",
+    "court_name": "名古屋地方裁判所"
+  },
+  {
+    "name": "三重県",
+    "slug": "mie",
+    "courthouse": "津拘置支所（津市乙部17-15）",
+    "bar_contact": "三重弁護士会: 059-228-2232",
+    "court_name": "津地方裁判所"
+  },
+  {
+    "name": "滋賀県",
+    "slug": "shiga",
+    "courthouse": "大津拘置支所（大津市丸の内町2-2）",
+    "bar_contact": "滋賀弁護士会: 077-522-2013",
+    "court_name": "大津地方裁判所"
+  },
+  {
+    "name": "京都府",
+    "slug": "kyoto",
+    "courthouse": "京都拘置所（京都市伏見区深草越後屋敷町24）",
+    "bar_contact": "京都弁護士会当番弁護士: 075-231-2378",
+    "court_name": "京都地方裁判所"
+  },
+  {
+    "name": "大阪府",
+    "slug": "osaka",
+    "courthouse": "大阪拘置所（東大阪市花園東町2-1-88）",
+    "bar_contact": "大阪弁護士会当番弁護士: 06-6364-3591（平日 9:15〜16:30）",
+    "court_name": "大阪地方裁判所"
+  },
+  {
+    "name": "兵庫県",
+    "slug": "hyogo",
+    "courthouse": "神戸拘置所（神戸市中央区中之島1）",
+    "bar_contact": "兵庫県弁護士会: 078-341-3227",
+    "court_name": "神戸地方裁判所"
+  },
+  {
+    "name": "奈良県",
+    "slug": "nara",
+    "courthouse": "奈良拘置支所（奈良市登大路町36-2）",
+    "bar_contact": "奈良弁護士会: 0742-22-7634",
+    "court_name": "奈良地方裁判所"
+  },
+  {
+    "name": "和歌山県",
+    "slug": "wakayama",
+    "courthouse": "和歌山刑務所（和歌山市中之島1350）",
+    "bar_contact": "和歌山弁護士会: 073-422-4580",
+    "court_name": "和歌山地方裁判所"
+  },
+  {
+    "name": "鳥取県",
+    "slug": "tottori",
+    "courthouse": "鳥取拘置支所（鳥取市西町3-201）",
+    "bar_contact": "鳥取県弁護士会: 0857-22-3912",
+    "court_name": "鳥取地方裁判所"
+  },
+  {
+    "name": "島根県",
+    "slug": "shimane",
+    "courthouse": "島根刑務所（松江市千鳥町1）",
+    "bar_contact": "島根県弁護士会: 0852-22-2580",
+    "court_name": "松江地方裁判所"
+  },
+  {
+    "name": "岡山県",
+    "slug": "okayama",
+    "courthouse": "岡山拘置所（岡山市北区下石井2-4-15）",
+    "bar_contact": "岡山弁護士会: 086-223-4401",
+    "court_name": "岡山地方裁判所"
+  },
+  {
+    "name": "広島県",
+    "slug": "hiroshima",
+    "courthouse": "広島拘置所（広島市中区白島九軒町14-1）",
+    "bar_contact": "広島弁護士会当番弁護士: 082-225-1600",
+    "court_name": "広島地方裁判所"
+  },
+  {
+    "name": "山口県",
+    "slug": "yamaguchi",
+    "courthouse": "山口刑務所（山口市大内御堀1150）",
+    "bar_contact": "山口県弁護士会: 083-922-0087",
+    "court_name": "山口地方裁判所"
+  },
+  {
+    "name": "徳島県",
+    "slug": "tokushima",
+    "courthouse": "徳島拘置支所（徳島市万代町1-1）",
+    "bar_contact": "徳島弁護士会: 088-652-5768",
+    "court_name": "徳島地方裁判所"
+  },
+  {
+    "name": "香川県",
+    "slug": "kagawa",
+    "courthouse": "高松刑務所（高松市田村町1128）",
+    "bar_contact": "香川県弁護士会: 087-822-3693",
+    "court_name": "高松地方裁判所"
+  },
+  {
+    "name": "愛媛県",
+    "slug": "ehime",
+    "courthouse": "松山刑務所（松山市余戸中4-17-1）",
+    "bar_contact": "愛媛弁護士会: 089-941-6279",
+    "court_name": "松山地方裁判所"
+  },
+  {
+    "name": "高知県",
+    "slug": "kochi",
+    "courthouse": "高知刑務所（高知市朝倉丙530-1）",
+    "bar_contact": "高知弁護士会: 088-872-0324",
+    "court_name": "高知地方裁判所"
+  },
+  {
+    "name": "福岡県",
+    "slug": "fukuoka",
+    "courthouse": "福岡拘置所（福岡市博多区千代1-1-1）",
+    "bar_contact": "福岡県弁護士会: 092-741-6416",
+    "court_name": "福岡地方裁判所"
+  },
+  {
+    "name": "佐賀県",
+    "slug": "saga",
+    "courthouse": "佐賀拘置支所（佐賀市城内1-7-23）",
+    "bar_contact": "佐賀県弁護士会: 0952-24-3411",
+    "court_name": "佐賀地方裁判所"
+  },
+  {
+    "name": "長崎県",
+    "slug": "nagasaki",
+    "courthouse": "長崎拘置支所（長崎市万才町8-16）",
+    "bar_contact": "長崎県弁護士会: 095-824-3903",
+    "court_name": "長崎地方裁判所"
+  },
+  {
+    "name": "熊本県",
+    "slug": "kumamoto",
+    "courthouse": "熊本刑務所（熊本市北区植木町一木444）",
+    "bar_contact": "熊本県弁護士会: 096-325-0009",
+    "court_name": "熊本地方裁判所"
+  },
+  {
+    "name": "大分県",
+    "slug": "oita",
+    "courthouse": "大分刑務所（大分市廻栖野671）",
+    "bar_contact": "大分県弁護士会: 097-536-1458",
+    "court_name": "大分地方裁判所"
+  },
+  {
+    "name": "宮崎県",
+    "slug": "miyazaki",
+    "courthouse": "宮崎刑務所（宮崎市田吉3083）",
+    "bar_contact": "宮崎県弁護士会: 0985-22-2466",
+    "court_name": "宮崎地方裁判所"
+  },
+  {
+    "name": "鹿児島県",
+    "slug": "kagoshima",
+    "courthouse": "鹿児島拘置支所（鹿児島市小川町4-1）",
+    "bar_contact": "鹿児島県弁護士会: 099-226-3765",
+    "court_name": "鹿児島地方裁判所"
+  },
+  {
+    "name": "沖縄県",
+    "slug": "okinawa",
+    "courthouse": "沖縄拘置所（沖縄市知花6-44-1）",
+    "bar_contact": "沖縄弁護士会: 098-865-3737",
+    "court_name": "那覇地方裁判所"
+  }
+]
