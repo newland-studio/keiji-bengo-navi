@@ -1,0 +1,18 @@
+# 環境変数
+.env
+
+# パイプラインデータ（個人情報含む可能性）
+data/firms_raw.json
+data/firms_generated.json
+
+# 静的書き出し（Wranglerが直接デプロイ）
+static-export/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# WP uploads（バイナリ大容量）
+wp-content/uploads/
