@@ -1,0 +1,3 @@
+path: /Users/ys41/Local Sites/keiji-bengo-navi/app/public
+extra-php: |
+  error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);

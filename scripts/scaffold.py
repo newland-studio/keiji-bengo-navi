@@ -37,7 +37,9 @@ def scaffold_pages() -> None:
                 text=True,
                 check=True,
             )
-            post_id = result.stdout.strip()
+            lines = [l for l in result.stdout.splitlines()
+                     if not l.startswith(("Deprecated:", "PHP Deprecated:", "Warning:", "Notice:"))]
+            post_id = lines[-1].strip() if lines else result.stdout.strip()
 
             meta = {
                 "local_courthouse": pref["courthouse"],
